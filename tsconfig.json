@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES6",
     "module": "esnext",
     "strict": true,
     "jsx": "preserve",
@@ -27,6 +27,9 @@
       "dom.iterable",
       "scripthost"
     ]
+  },
+  "vueCompilerOptions": {
+    "target": 2.7
   },
   "include": [
     "src/**/*.ts",
